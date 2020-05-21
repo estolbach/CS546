@@ -1,0 +1,49 @@
+body {
+  background: #fefefe;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  font-size: 15pt;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+label {
+    color: #6495ED;
+    font-weight: bold;
+}
+
+p {
+    font-size: 10pt;
+    color: gold;
+}
+
+#phrase {
+    font-style: italic;
+}
+
+.btn {
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.is-palindrome {
+    color: #0000FF;
+}
+
+.not-palindrome {
+    color:#FF0000;
+}

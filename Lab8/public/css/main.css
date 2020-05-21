@@ -1,0 +1,53 @@
+.success {
+    color: #28a745;
+}
+
+.failure {
+    color: #dc3545;
+}
+
+h1 {
+    color: blue;
+    font-weight: bold;
+}
+
+
+#button {
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+#button:hover {
+    background-color: black;
+    color: white;
+}
+
+label {
+    font-size: 14pt;
+    color: pink;
+}
+
+input {
+    border: 2px solid black;
+}
+
+p {
+    font-size: 16pt;
+    color: gold;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 16pt;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: blue;
+}

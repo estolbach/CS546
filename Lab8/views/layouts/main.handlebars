@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The Best Palindrome Checker in the World!</title>
+        <link rel="stylesheet" href="/public/css/main.css">
+    </head>
+    <body>
+        <main>
+            {{#if result}}
+                <p class="success">{{input}}</p>
+                <p>The phrase entered is a Palindrome!</p>
+            {{else}}
+                <p class="failure">{{input}}</p>
+                <p>The phrase entered is not a Palindrome!</p>
+            {{/if}}
+            <a href="/">Try another palindrome</a>
+        </main>
+    </body>
+</html>
